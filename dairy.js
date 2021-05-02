@@ -5,3 +5,7 @@ const perShed = {
     C: 486,
     D: 572
 }
+// milk production per shed report
+for (const [key, value] of Object.entries(perShed)) {
+    console.log(`Your production in shed ${key} ${value} litres per day`);
+  }
