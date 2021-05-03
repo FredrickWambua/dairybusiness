@@ -9,7 +9,7 @@ const perShed = {
 for (const [key, value] of Object.entries(perShed)) {
     console.log(`Your production in shed ${key} ${value} litres per day`);
   }
-// total milk production in a day
+total milk production in a day
 const total = (accumulator, currentValue) => accumulator + currentValue;
 const obj = Object.values(perShed);
 
