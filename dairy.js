@@ -1,6 +1,6 @@
 // object : milk production per shed in a day
 const perShed = {
-	A: 510,
+	  A: 510,
     B: 308,
     C: 486,
     D: 572
@@ -25,16 +25,16 @@ function incomeOverTime(selling_price, time){
           console.log(`Your weekly income will be Ksh ${totalProduction() * 7 * selling_price}`);
           break;
 
-      case 'yearly':
-          console.log(`Your yearly income will be Ksh ${totalProduction() * 365 * selling_price}`);
-          break;
+//       case 'yearly':
+//           console.log(`Your yearly income will be Ksh ${totalProduction() * 365 * selling_price}`);
+//           break;
 
-      // case `monthly`:
-      //     console.log(`your monthly income will be ksh ${ totalProduction() *31 * selling_price}`)
+//       // case `monthly`:
+//       //     console.log(`your monthly income will be ksh ${ totalProduction() *31 * selling_price}`)
   
-      default:
-          console.log(totalProduction())
-          break;
-  }
-  checkLeapYear(2020, selling_price);
-}
+//       default:
+//           console.log(totalProduction())
+//           break;
+//   }
+//   checkLeapYear(2020, selling_price);
+// }
