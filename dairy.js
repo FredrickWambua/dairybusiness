@@ -38,7 +38,13 @@ function incomeOverTime(selling_price, time){
     checkLeapYear(2020, selling_price);
 }
 // end of calculating amount within weekly and annually:
+
 function checkLeapYear(year, selling_price){
     const monthNames = ["January", "February", "March", "April", "May", "June",
     "July", "August", "September", "October", "November", "December"
     ];
+    const isLeap = year => new Date(year, 1, 29).getDate() === 29;
+    const getDaysInMonth = function(month,year) {
+        return new Date(year, month, 0).getDate();
+    };
+}
