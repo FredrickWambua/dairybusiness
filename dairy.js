@@ -38,3 +38,7 @@ function incomeOverTime(selling_price, time){
     checkLeapYear(2020, selling_price);
 }
 // end of calculating amount within weekly and annually:
+function checkLeapYear(year, selling_price){
+    const monthNames = ["January", "February", "March", "April", "May", "June",
+    "July", "August", "September", "October", "November", "December"
+    ];
