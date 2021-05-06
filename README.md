@@ -1,5 +1,5 @@
 # Diary Business
-This is a dairy farm production and income motitoring program.
+This is a dairy farm production and income monitoring program.
 ## Author
 Fredrick W. Musyoki https://github.com/FredrickWambua
 ## Project description
